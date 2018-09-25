@@ -1,5 +1,6 @@
 import React from 'react';
-import Movie from "./Movie"
+import Movie from "./Movie";
+import Person from "./Person";
 
 const movies=[
   {id:1,
@@ -27,7 +28,7 @@ class App extends React.Component{
         {movies.map(movie => {
           return <Movie key={movie.id} title={movie.title} year={movie.year}/>
           })}
-
+        <Person />
 
     </div>
 
