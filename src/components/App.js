@@ -1,9 +1,11 @@
 import React from 'react';
+import FormInput from './FormInput';
+import RegistrationForm from './RegistrationForm';
 // import Movie from "./Movie";
 // import Person from "./Person";
 // import CreditCardInput from "./CreditCardInput";
-import ImageSearch from './ImageSearch.js';
-import ImageDisplay from './ImageDisplay.js';
+// import ImageSearch from './ImageSearch.js';
+// import ImageDisplay from './ImageDisplay.js';
 
 
 // const movies=[
@@ -33,7 +35,8 @@ class App extends React.Component{
           return <Movie key={movie.id} title={movie.title} year={movie.year}/>
           })}
         <Person /> */}
-        <ImageSearch />
+        {/* <ImageSearch /> */}
+        <RegistrationForm />
     </div>
 
     );

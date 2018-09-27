@@ -1,11 +1,7 @@
-.border{
-  border: 2px bold black ;
+.normal{
+  display: none;
 }
 
-.border--red{
-  border-color: red;
-}
-
-.border--green{
-  border-color: green;
+.normal--warning{
+  display: inline;
 }
